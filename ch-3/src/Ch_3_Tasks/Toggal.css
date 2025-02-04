@@ -1,0 +1,15 @@
+.switch {
+    width: 10vw;
+    height: 100vh;
+    color: white;
+}
+.toggal-btn{
+    width: 300px;
+    height: 90px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 50px;
+    text-transform: capitalize;
+background-color: black;
+}
