@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Toggal.css';
 
-export default function Toggal() {
+export default function Task_a() {
 
 
 
