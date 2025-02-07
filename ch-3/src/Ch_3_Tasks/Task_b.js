@@ -12,6 +12,7 @@ export default function Task_b() {
             )
 
     }, [])
+
     return (
         <>
             <h2>Fetch User Data using JSONPlaceholder API</h2>
