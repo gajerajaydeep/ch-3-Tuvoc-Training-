@@ -7,6 +7,7 @@ import Language_optin from "./Ch_3_Tasks/Task_c/Language_optin";
 import Task_d from "./Ch_3_Tasks/Task_d";
 import Task_e from "./Ch_3_Tasks/Task_e";
 import Task_f from "./Ch_3_Tasks/Task_f";
+import Task_c from "./Ch_3_Tasks/Task_c"
 
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       {/* <Language_optin /> */}
       {/* <Task_d/> */}
       {/* <Task_e/> */}
-      <Task_f />
+      {/* <Task_f /> */}
+      <Task_c/>
 
     </>
   );
