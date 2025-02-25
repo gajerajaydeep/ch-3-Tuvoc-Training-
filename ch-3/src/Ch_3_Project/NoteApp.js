@@ -75,14 +75,7 @@ export default function NoteApp() {
     const filteredNotes = notes.filter((note) =>
         note.text.toLowerCase().includes(searchTerm.toLowerCase())
     );
-    // handleSearchBtn
-    // let filteredNotes;
-    // const handleSearchBtn = () => {
-    //      filteredNotes = notes.filter((note) =>
-    //         note.text.toLowerCase().includes(searchTerm.toLowerCase())
-    //     );
-    //     return filteredNotes
-    // }
+   
 
 
 
@@ -98,7 +91,7 @@ export default function NoteApp() {
                     value={searchTerm}
                     onChange={handleSearch}
                 />
-                {/* <button onClick={handleSearchBtn}>Search</button> */}
+               
             </div>
             {filteredNotes.map((note) => (
                 editToggle === note.id ? (

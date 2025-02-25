@@ -7,19 +7,7 @@ export default function CreateNotes({ inputText, setInputText, saveHandler, }) {
 
 
   return (<>
-    {/* <h1 style={{ display: "flex", justifyContent: "center" }}>Notes</h1> */}
-
-    {/* search logic */}
-    <div className="search-bar">
-      {/* <input
-        type="text"
-        placeholder="Search notes..."
-        value={searchTerm}
-        onChange={handleSearch}
-      /> */}
-
-    </div>
-    {/* ------------ */}
+    
     <div className='note-container'>
       <textarea
         cols={21}
