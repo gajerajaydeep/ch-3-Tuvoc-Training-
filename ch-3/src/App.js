@@ -16,7 +16,7 @@ import Task_h from "./Ch_3_Tasks/Task_h/Task_h";
 import { CartProvider } from './Ch_3_Tasks/Task_h/CartContext';
 import Item from './Ch_3_Tasks/Task_h/Item';
 import Cart from './Ch_3_Tasks/Task_h/Cart';
-
+import NoteApp from './Ch_3_Project/NoteApp'
 
 function App() {
 
@@ -31,8 +31,8 @@ function App() {
       {/* <Task_f /> */}
       {/* <Task_c/> */}
       {/* <Task_g/> */}
-
-      <Task_h />
+      {/* <Task_h /> */}
+<NoteApp/>
 
     </>
   );

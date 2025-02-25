@@ -1,0 +1,46 @@
+.note-container{
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    border-radius: 5px ;
+    padding: 20px;
+    margin: 20px;
+}
+.note-container textarea{
+    border: none;
+    font-size: 18px;
+}
+.note_save{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.note-body{
+
+    width: 200px;
+    height: 100px;
+    border-radius: 5px ;
+}
+.save-note-container{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 5px;
+}
+.search-bar{
+    display: flex;
+  margin: 20px 0 20px 0 ;
+}
+.search-bar input {
+    width: 400px;
+border-radius: 20px;
+}
+.edit-btn{
+    background-color: green;
+    color: white;
+}
+.dlt-btn{
+    background-color: red;
+    color: white;
+}
