@@ -5,6 +5,7 @@
     border-radius: 5px ;
     padding: 20px;
     margin: 20px;
+background-color: aliceblue;
 }
 .note-container textarea{
     border: none;
@@ -27,6 +28,8 @@
     border-radius: 5px;
     margin: 20px;
     padding: 5px;
+    background-color: rgb(53, 53, 53);
+    color: white;
 }
 .search-bar{
     display: flex;
